@@ -30,6 +30,7 @@ public class MAPanel extends AVApp implements Observer {
 		cPanel= new ControlPanel(sim);
 		cButton =new ComboButton(this);
 		super.initGUI();
+		menuMgr.createDefaultActions();
 		super.showUI();
 		
 	
